@@ -32,4 +32,6 @@ eksctl create cluster --config-file=eks.yaml
 
 ![alt text](./images/eksctl.png)
 
-### Comments
+### Delete EKS
+kubectl config get-clusters # Displays <cluster-name>
+eksctl delete cluster --name <cluster-name>
